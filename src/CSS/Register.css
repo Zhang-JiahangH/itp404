@@ -1,0 +1,85 @@
+.login-container-left {
+  background-color: var(--bone);
+  width: 450px;
+  height: 500px;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  border-radius: 5%;
+}
+.login-bg {
+  background: linear-gradient(
+    to right,
+    var(--dark) 0%,
+    var(--dark) 50%,
+    var(--iris) 50%,
+    var(--iris) 100%
+  );
+}
+.login-container-right {
+  background-color: var(--bone);
+  width: 450px;
+  height: 500px;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  border-radius: 5%;
+}
+.login-type-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid var(--dark);
+}
+.login-type-img {
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+}
+.login-horizontal-line {
+  width: 80%;
+  height: 1px;
+  background-color: var(--iris);
+}
+.login-website-hover {
+  color: var(--iris);
+  text-decoration: underline;
+}
+.login-website-hover:hover {
+  color: var(--periwinkle);
+}
+.login-new-msg {
+  font-size: 50px !important;
+  color: var(--iris) !important;
+}
+.login-new-sub-msg {
+  font-size: 25px !important;
+  color: var(--dark) !important;
+}
+.login-type-text {
+  font-size: 14px !important;
+  color: var(--dark) !important;
+}
+.login-msg {
+  font-size: 35px !important;
+  margin-top: 4px;
+  color: var(--iris) !important;
+}
+.login-remember-me {
+  margin-left: 4px;
+  font-size: 14px !important;
+}
+.login-remember-check {
+  font-size: 14px;
+  border-color: var(--iris);
+}
+.login-remember-check:checked {
+  background-color: var(--iris);
+}
+.form-control,
+.form-control:focus,
+input:focus,
+.login-remember-check:focus {
+  border-color: var(--iris);
+}
+.login-icons:hover g {
+  fill: var(--iris);
+}

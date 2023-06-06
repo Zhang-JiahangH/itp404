@@ -1,0 +1,78 @@
+html, body, #root, .App {
+  height: 100%;
+}
+:root {
+  --darkblue-color: #061f3a;
+  --purple-color: #6869b0;
+  --whale-color: #112f4c;
+  --green-color: #1f4361;
+  --lilac-color: #917cb8;
+}
+* {
+  font-family: "proxima";
+  margin: 0px;
+  padding: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #061f3a !important;
+}
+.btn-primary {
+  background-color: var(--purple-color) !important;
+  border: 0px !important;
+}
+.btn-primary:hover {
+  opacity: 90%;
+}
+.btn-secondary {
+  background-color: var(--green-color) !important;
+  border: 0px !important;
+}
+.btn-secondary:hover {
+  opacity: 90%;
+}
+.navbar-custom {
+  background-color: var(--darkblue-color) !important;
+  color: white !important;
+}
+footer {
+  background-color: var(--darkblue-color) !important;
+  color: white;
+  margin-top: 4px;
+}
+footer .footer-title {
+  font-size: 15px;
+}
+footer p {
+  font-size: 8px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.oddBody {
+  background: linear-gradient(
+    to right,
+    #ffffff 0%,
+    #ffffff 50%,
+    #917cb880 50%,
+    #917cb880 100%
+  );
+}
+.oddBody2 {
+  background: linear-gradient(
+    to right,
+    #917cb880 0%,
+    #917cb880 50%,
+    #ffffff 50%,
+    #ffffff 100%
+  );
+}
+
+#map {
+  width: '100%';
+  height: '730px';
+}
